@@ -6,7 +6,7 @@ html {
      width: 90%;
      height: 100%;
      padding-left:30px;
-     background-image: url("hiking-background.jpg");
+     background-image: url("pictures/hiking-background.jpg");
      
      color:white;
      
@@ -18,7 +18,7 @@ html {
       font-size:1.2em ;
       display: block;
       text-align: center;
-      background-image: url("snow-pic.jpg");
+      background-image: url("pictures/snow-pic.jpg");
       background-attachment: fixed;
   }
   nav {
