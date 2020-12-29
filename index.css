@@ -21,11 +21,12 @@ h3:hover {
 
 body {
   margin: 0px;
+  width: auto;
 }
 
 header {
   border: 2px ridge rgb(96, 194, 207);
-  padding: 60px;
+  padding: 30px;
   font-size:1.3em ;
   text-align: center;
   background-image: url("pictures/snow-pic.jpg");
@@ -33,8 +34,8 @@ header {
 }
 
 main {
-  border-width: 2000px;
-  height: 1452px;
+  border-width: auto;
+  height: 1500;
   padding-top: 50px;
   background-image: url("pictures/hiking-background.jpg");
 }
@@ -106,7 +107,7 @@ h3 {
 
   footer {
     border: 2px ridge rgb(96, 194, 207);
-    padding: 7%;
+    padding: 3%;
     display: block;
     text-align: center;
     background-image: url("pictures/snow-pic.jpg");
