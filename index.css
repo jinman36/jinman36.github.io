@@ -11,6 +11,14 @@
   display: table;
 }
 
+a:hover {
+  color:#4195ce;
+}
+
+h3:hover {
+  color: #4195ce;
+}
+
 body {
   margin: 0px;
 }

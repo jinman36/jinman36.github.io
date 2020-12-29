@@ -1,7 +1,4 @@
-html {
-    height: 100%;
 
-  }
   body {
      width: 90%;
      height: 100%;
@@ -71,23 +68,24 @@ html {
 
   
   .links-image{
-    float:right;
-    height:200px;
-    padding:20px;
+    float: right;
+    height: 250px;
+    width: 400px;
+    padding: 20px;
   }
 
   footer {
-      margin-left:50px;
-      padding-bottom:20px;
+      margin-left: 50px;
+      padding-bottom: 20px;
   }
    
         
   
   .article{
      clear:both;
-      margin-bottom:30px;
-      padding-bottom:90px;
-      width:90%;
+      margin-bottom: 30px;
+      padding-bottom: 90px;
+      width: 90%;
       
   }
 
