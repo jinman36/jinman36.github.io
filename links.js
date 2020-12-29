@@ -1,6 +1,7 @@
 const body = document.querySelector('body')
-
-const c = body.getContext('2d')
+const header = document.querySelector('header')
 
 body.width = innerWidth
 body.height = innerHeight
+
+header.width = innerWidth
