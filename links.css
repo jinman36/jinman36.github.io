@@ -21,17 +21,17 @@ body {
 }
 
 main {
-    width: canvas.width;
-    height: canvas.height;
-    padding-left:30px;
+    width: body.width;
+    height: body.height;
+    padding-left:300px;
     background-image: url("pictures/hiking-background.jpg");
     color:white;
 }
 
 header {
     border: 2px ridge rgb(96, 194, 207);
-    padding: 3px;
-    font-size:1.2em ;
+    padding: 60px;
+    font-size:1.3em ;
     text-align: center;
     background-image: url("pictures/snow-pic.jpg");
     background-attachment: fixed;
@@ -59,26 +59,36 @@ nav li a {
     padding: 12px 18px 8px 18px;    
 }
 
-a {
-    color:#ece3e7 ;
-}
-
-
 section {
     width: 90%;
     display: inline-block;   
 }
 
-h1{
-    color:white;
-}
+h1 {
+    border-style: double;
+    background-color: black;
+    position: center;
+    color: white;
+  }
 
 h2{
     color: white   ;
 }
 
+h4 {
+    border-style: double;
+    background-color: black;
+    border-width: 100%;
+    text-align: center;
+    color: white;
+    }
+
 p{
     max-width: 50%;
+}
+
+a {
+    color: whitesmoke;
 }
 
 

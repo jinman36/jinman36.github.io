@@ -25,31 +25,31 @@ body {
 
 header {
   border: 2px ridge rgb(96, 194, 207);
-  padding: 3px;
-  font-size:1.2em ;
+  padding: 60px;
+  font-size:1.3em ;
   text-align: center;
   background-image: url("pictures/snow-pic.jpg");
   background-attachment: fixed;
 }
 
 main {
-    width: canvas.width;
-    height: canvas.height;
-    padding-top: 50px;
-    background-image: url("pictures/hiking-background.jpg");
-  }
+  width: body.width;
+  height: 1400px;
+  padding-top: 50px;
+  background-image: url("pictures/hiking-background.jpg");
+}
   
-  h1 {
-    border-style: double;
-    background-color: black;
-    position: center;
-    color: white;
-  }
+h1 {
+  border-style: double;
+  background-color: black;
+  position: center;
+  color: white;
+}
   
-  h3 {
-    padding-left: 120px;
-    color: white;
-  }
+h3 {
+  padding-left: 120px;
+  color: white;
+}
   
   h4 {
     border-style: double;
@@ -68,22 +68,23 @@ main {
   nav {
       float: left;
       width: 100%;
-  }
-
-  nav ul {
-    padding-left: 40%;
-    float: left;
-    list-style-type: none;
-  }
-
-  nav li {
+    }
+    
+    nav ul {
+      padding-left: 35%;
       float: left;
-  }
-
-  nav li a {
-     display: block;
+      list-style-type: none;
+    }
+    
+    nav li {
+      float: left;
+    }
+    
+    nav li a {
+      display: block;
       height: 25px;
-      padding: 12px 18px 8px 18px; 
+      padding: 0px 18px 0px 10px; 
+      color: whitesmoke;
   }
 
   article img {
@@ -98,6 +99,10 @@ main {
       width:100%;
       padding-left: 300px;
   }
+
+  a {
+    color: whitesmoke;
+}
 
   footer {
     border: 2px ridge rgb(96, 194, 207);
